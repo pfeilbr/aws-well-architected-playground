@@ -61,6 +61,8 @@ A feature to define custom lenses - a customer defined lens.  This way the singl
 
 ## Resources
 
+* [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected)
+* [Documentation | AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 * [The Review Process - AWS Well-Architected Framework](https://wa.aws.amazon.com/wat.thereviewprocess.wa-review.en.html)
 * [AWS Well Architected framework: A Complete Checklist](https://www.rapyder.com/blogs/aws-well-architected-framework-checklist/)
 * [AWS Well-Architected Framework Cheatsheet | Cloud Noon](https://cloudnoon.com/blog/aws/aws-well-architected-framework-cheatsheet/)
