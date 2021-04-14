@@ -44,6 +44,20 @@ AWS Console Tool that steps a user through the Well-Architected Review Process
 ### Well-Architected Tool Data
 
 See [`aws-well-architected-data`](aws-well-architected-data) for the question data as `json` for each lens.
+
+**Notes on pulling data via AWS Console**
+
+```sh
+# aws console request format
+POST https://console.aws.amazon.com/wellarchitected/api/apiservice
+
+{"method":"GET","path":"/workloads/4cfa14fe4a9d351afc9975cfdcb434af/lensReviews/wellarchitected/answers","region":"us-east-1","headers":{"Content-Type":"application/json","Accept":"application/json"},"params":{"PillarId":"operationalExcellence","MaxResults":50,"Locale":"en"}}
+
+# helpful Resources on right sidebar example
+https://wa.aws.amazon.com/TypeII/en/foundationaltechnicalreview/foundationaltechnicalreview.sec_q1.helpful-resources.en.html
+
+```
+
 ### Feature Request
 
 One area where there is a gap for an enterprises are all the company specific policies, standards, and best practices that are additive and need to be addressed on top of AWS.  These types of questions and guidance would need to happen outside of WA Tool.
