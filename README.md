@@ -41,9 +41,12 @@ deep dive on all things AWS Well-Architected
 
 AWS Console Tool that steps a user through the Well-Architected Review Process
 
-### Well-Architected Tool Data
+### Well-Architected Alternate Renditions
 
-See [`aws-well-architected-data`](aws-well-architected-data) for the question data as `json` for each lens.
+Consuming the WA PDFs or web content can be a bit challenging with navigation.  The WA questions, resources, etc. are available as `json` via the AWS WA Console Tool with some scraping.  This creates alternate renditions based on this data.
+
+* Run [`aws-well-architected-reformat/main.js`](aws-well-architected-reformat/main.js) to generate a reformatted and condensed version of WA.
+* See [`aws-well-architected-reformat/data`](aws-well-architected-reformat/data) for the question data as `json` for each lens.
 
 **Notes on pulling data via AWS Console**
 
