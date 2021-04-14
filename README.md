@@ -41,6 +41,9 @@ deep dive on all things AWS Well-Architected
 
 AWS Console Tool that steps a user through the Well-Architected Review Process
 
+### Well-Architected Tool Data
+
+See [`aws-well-architected-data`](aws-well-architected-data) for the question data as `json` for each lens.
 ### Feature Request
 
 One area where there is a gap for an enterprises are all the company specific policies, standards, and best practices that are additive and need to be addressed on top of AWS.  These types of questions and guidance would need to happen outside of WA Tool.
